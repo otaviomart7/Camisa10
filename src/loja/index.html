@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisa10</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <nav>
+
+        <span class="navItems" onclick="navTo('s1')">
+            <a class="navWords">Sobre</a>
+        </span>
+
+        <span class="navItems" onclick="navTo('s2')">
+            <a class="navWords">Produtos</a>
+        </span>
+
+        <span class="navItems" onclick="navTo('s3')">
+            <a class="navWords">Contato</a>
+        </span>
+
+    </nav>
+
+
+    <main>
+
+
+        <section id="s1">
+                <h1>BEM VINDO A <strong>CAMISA 10</strong></h1>
+                <h2>A loja mais fofa de camisas do Brasil</h2>
+
+        </section>
+
+
+
+        <section id="s2">
+            <div id="produtos-container" class="center"></div>
+        </section>
+
+
+
+        <section id="s3">
+            <h3>CONTATO</h3>
+            <div class="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome">
+
+
+                <label for="assunto">Mensagem:</label>
+                <textarea id="assunto" placeholder="Digite sua mensagem"></textarea>
+
+                <button onclick="enviar()">ENVIAR</button>
+        </section>
+
+
+    </main>
+
+</body>
+
+
+
+
+<source><script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(58, 58, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    height: 100px;
+}
+
+
+section{
+    min-height: 100vh;
+    height: auto;
+}
+
+#s1{
+    background-image: url(../../public/ChatGPT\ Image\ 23\ de\ jun.\ de\ 2026\,\ 11_02_48.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 100px;
+    word-break: break-word;
+    text-shadow: 0px 10px 5px rgb(58, 58, 153);
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+}
+
+
+h2{
+    font-size: 50px;
+    letter-spacing: 7px;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+}
+
+
+
+#s2{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    min-height: 70vh;
+}
+
+
+    .formulario{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+
+.formulario label{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: -25px;
+    font-size: 22px;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--text);
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.formulario textarea{
+    max-width: 100%;
+    width: 255px;
+    min-width: 255px;
+    max-height: 300px;
+    min-height: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.formulario button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--text);
+    border: none;
+    transition: all 200ms ease-in-out;
+}
+
+.formulario button:hover{
+    background-color: #640707;
+    color: var(--text);
+}
+
+
+
+#s3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 70vh;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+#s3 h3{
+    font-size: 70px;
+    letter-spacing: 3px;
+    width: 100%;
+    text-align: center;
+
+}
