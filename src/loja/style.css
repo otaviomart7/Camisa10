@@ -10,12 +10,18 @@ nav{
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: rgb(58, 58, 153);
+    background-color: rgb(28, 28, 92);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 20vw;
     height: 100px;
+}
+
+nav a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -34,29 +40,14 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
-
-h1{
+#s1 h1{
     font-size: 100px;
     word-break: break-word;
     text-shadow: 0px 10px 5px rgb(58, 58, 153);
-    width: 100%;
-    text-align: center;
-    line-height: 120px;
-    color: white;
 }
-
-
-h2{
-    font-size: 50px;
-    letter-spacing: 7px;
-    width: 100%;
-    text-align: center;
-    line-height: 120px;
-    color: white;
-}
-
 
 
 #s2{
@@ -71,7 +62,7 @@ h2{
 }
 
 
-    .formulario{
+.formulario{
     width: 300px;
     height: auto;
     padding: 20px;
