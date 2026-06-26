@@ -1,57 +1,57 @@
 [
     {
         "id": 1,
-        "desc": "",
-        "imagem": "",
+        "desc": "Camisa França Nike II 2026/27",
+        "imagem": "../../public/franca.webp",
         "valor": 250.00
     },
 
     {
         "id": 2,
-        "desc": "",
-        "imagem": "",
+        "desc": "Camisa Brasil Nike I 2026/27",
+        "imagem": "../../public/brasil.jpg",
         "valor": 2.43
     },
 
     {
         "id": 3,
-        "desc": "",
-        "imagem": "",
+        "desc": "Camisa Barcelona Nike Travis Scott II 2025/26",
+        "imagem": "../../public/barca.png",
         "valor": 6767.67
     },
     
     {
         "id": 4,
-        "desc": "",
-        "imagem": "",
+        "desc": "Camisa Vasco Oficial III 2023 Camisas Negras",
+        "imagem": "../../public/vasco3.webp",
         "valor": 6767.67
     }, 
 
     {
-        "id": 1,
-        "desc": "",
-        "imagem": "../",
+        "id": 5,
+        "desc": "Camisa Belgica Adidas II 2026/27",
+        "imagem": "../../public/belgica.webp",
         "valor": 250.00
     },
 
     {
-        "id": 2,
-        "desc": "",
-        "imagem": "",
+        "id": 6,
+        "desc": "Camisa Costa do Marfim Puma I 2026/27",
+        "imagem": "../../public/costa.webp",
         "valor": 2.43
     },
 
     {
-        "id": 3,
-        "desc": "",
-        "imagem": "",
+        "id": 7,
+        "desc": "Camisa Argentina Adidas II 2026/27",
+        "imagem": "../../public/argentina.webp",
         "valor": 6767.67
     },
     
     {
-        "id": 4,
-        "desc": "",
-        "imagem": "",
+        "id": 8,
+        "desc": "Camisa Athletico Paranaense Umbro I 2018",
+        "imagem": "../../public/athletico.jpg",
         "valor": 6767.67
     }
 
