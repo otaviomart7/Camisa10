@@ -10,50 +10,66 @@
         "id": 2,
         "desc": "Camisa Brasil Nike I 2026/27",
         "imagem": "../../public/brasil.jpg",
-        "valor": 2.43
+        "valor": 199.90
     },
 
     {
         "id": 3,
         "desc": "Camisa Barcelona Nike Travis Scott II 2025/26",
         "imagem": "../../public/barca.png",
-        "valor": 6767.67
+        "valor": 399.99
     },
     
     {
         "id": 4,
         "desc": "Camisa Vasco Oficial III 2023 Camisas Negras",
         "imagem": "../../public/vasco3.webp",
-        "valor": 6767.67
+        "valor": 699.99
     }, 
 
     {
         "id": 5,
         "desc": "Camisa Belgica Adidas II 2026/27",
         "imagem": "../../public/belgica.webp",
-        "valor": 250.00
+        "valor": 100.90
     },
 
+    
     {
         "id": 6,
         "desc": "Camisa Costa do Marfim Puma I 2026/27",
         "imagem": "../../public/costa.webp",
-        "valor": 2.43
-    },
-
-    {
-        "id": 7,
-        "desc": "Camisa Argentina Adidas II 2026/27",
-        "imagem": "../../public/argentina.webp",
-        "valor": 6767.67
+        "valor": 100.00
     },
     
     {
+        "id": 7,
+        "desc": "Camisa Paraná Clube Valente I 2026 👑",
+        "imagem": "../../public/parana.png",
+        "valor": 999.99
+    },
+    {
         "id": 8,
+        "desc": "Camisa Argentina Adidas II 2026/27",
+        "imagem": "../../public/argentina.webp",
+        "valor": 239.99
+    },
+
+    {
+        "id": 9,
+        "desc": "Camisa Coritiba Diadora I 2026",
+        "imagem": "../../public/coxa.webp",
+        "valor": 99.99
+    },
+    
+    {
+        "id": 10,
         "desc": "Camisa Athletico Paranaense Umbro I 2018",
         "imagem": "../../public/athletico.jpg",
-        "valor": 6767.67
+        "valor": 29.99
     }
+
+
 
 
 ]
