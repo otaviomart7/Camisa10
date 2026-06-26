@@ -65,3 +65,19 @@ document.getElementById("produtos-container").addEventListener("click", function
     localStorage.setItem("carrinho", JSON.stringify(carrinho))
     alert("Produto Adicionado ao Carrinho!")
 })
+
+function enviar(){
+    const nome = document.getElementById('nome').value 
+    const assunto = document.getElementById('assunto').value
+
+    const mensagem = `Gostaria de entrar em contato!\n\nNome: ${nome}\nAssunto: ${assunto}`
+    const msg = encodeURIComponent(mensagem)
+    window.open(`https://wa.me/55dd********?text=${msg}`)
+}
+
+function navTo(id){
+    document.getElementById(id).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    })
+}
